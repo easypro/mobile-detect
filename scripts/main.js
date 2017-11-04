@@ -6,4 +6,6 @@ if (md.mobile()) {
     } else if (md.tablet()) {
         $('span.yellow').html('Tablet');
     }
+} else {
+    $('span.yellow').html('Desktop');
 }
