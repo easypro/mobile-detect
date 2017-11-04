@@ -15,10 +15,10 @@ var md = new MobileDetect(window.navigator.userAgent);
 
 if (md.mobile()) {
     if (md.phone()) {
-        window.location="https://easypro.github.io/mobile-detect/phone.html";
+        window.location="https://easypro.github.io/mobile-detect/dummy/phone.html";
     } else if (md.tablet()) {
-        window.location="https://easypro.github.io/mobile-detect/tablet.html";
+        window.location="https://easypro.github.io/mobile-detect/dummy/tablet.html";
     }
 } else {
-    window.location="https://easypro.github.io/mobile-detect/desktop.html";
+    window.location="https://easypro.github.io/mobile-detect/dummy/desktop.html";
 }
