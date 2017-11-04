@@ -20,5 +20,5 @@ if (md.mobile()) {
         window.location="https://easypro.github.io/mobile-detect/dummy/tablet.html";
     }
 } else {
-    window.location="https://easypro.github.io/mobile-detect/dummy/desktop.html";
+    window.location="desktop.html";
 }
